@@ -129,7 +129,9 @@ nav ul li a.active {
   display: block;
   font-size: 22px;
   margin-top: 5px;
-  color: white;
+   color: #ff6600;
+  text-shadow: 0 0 15px #ff6600cc;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 
