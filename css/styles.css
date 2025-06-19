@@ -497,17 +497,39 @@ Contact
 .btn-cv {
   display: inline-block;
   margin-top: 30px;
-  padding: 12px 24px;
-  background-color: #ff6600;
-  color: white;
-  border-radius: 8px;
+  padding: 14px 30px;
+  font-size: 1.3rem;
   font-weight: bold;
-  box-shadow: 0 0 12px #ff6600cc;
-  transition: background-color 0.3s ease;
+  color: #fff;
+  background: linear-gradient(135deg, #ff6600, #ff9900);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 0 25px #ff6600aa;
   text-decoration: none;
-  font-size: 1.2rem;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-cv::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+  transform: skewX(-20deg);
+  transition: left 0.5s;
 }
 
 .btn-cv:hover {
-  background-color: #e85c00;
+  transform: scale(1.05);
+  box-shadow: 0 0 45px #ff6600cc;
 }
+
+.btn-cv:hover::before {
+  left: 100%;
+}
+
