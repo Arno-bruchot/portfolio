@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
-
+/*
   links.forEach(link => {
     link.addEventListener('click', e => {
       e.preventDefault();
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
       showSection(targetId);
     });
   });
-
+*/
   // Affichage initial (intro visible)
   showSection('intro');
   const fills = document.querySelectorAll('.progress-bar-fill');
