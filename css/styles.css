@@ -365,7 +365,6 @@ p {
   color: #000000; /* couleur noire */
   text-shadow: 0 0 12px #ff6600cc; /* lueur orange */
   font-family: 'Rajdhani', sans-serif;
-  background-color: white;
   padding: 15px;
   border-radius: 50%;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
