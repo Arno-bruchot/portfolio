@@ -132,10 +132,7 @@ nav ul li a.active {
   color: white;
 }
 
-.nav-icon:hover i {
-  background-color: #a5d6a7;
-  color: #2e7d32;
-}
+
 
 /* Main content à droite */
 main {
