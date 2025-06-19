@@ -415,9 +415,9 @@ p {
 }
 
 .bulle {
-  width: 100px;
-  height: 100px;
-  border: 2px solid #ff6600;
+  width: 150px;
+  height: 150px;
+  border: 7px solid #ff6600;
   text-shadow: 0 0 10px #ff6600cc;
   border-radius: 50%;
   display: flex;
