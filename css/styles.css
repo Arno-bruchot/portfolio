@@ -354,3 +354,24 @@ p {
   margin-top: 100px;
   border-radius: 8px;
 }
+.social-icons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.social-icons a {
+  font-size: 32px;
+  color: #000000; /* couleur noire */
+  text-shadow: 0 0 12px #ff6600cc; /* lueur orange */
+  font-family: 'Rajdhani', sans-serif;
+  background-color: white;
+  padding: 15px;
+  border-radius: 50%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #ff6600;
+}
