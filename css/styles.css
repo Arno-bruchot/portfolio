@@ -129,6 +129,7 @@ nav ul li a.active {
   display: block;
   font-size: 22px;
   margin-top: 5px;
+  color: white;
 }
 
 .nav-icon:hover i {
