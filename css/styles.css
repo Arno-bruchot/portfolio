@@ -464,7 +464,9 @@ Contact
 
 .contact-form input,
 .contact-form textarea {
-  width: 100%;
+  width: 70%;
+  max-width: 400px;
+  min-width: 200px;
   padding: 10px;
   margin-bottom: 1rem;
   border: none;
@@ -473,6 +475,7 @@ Contact
   color: #fff;
   font-size: 1rem;
 }
+
 
 .contact-form input:focus,
 .contact-form textarea:focus {
