@@ -533,3 +533,20 @@ Contact
   left: 100%;
 }
 
+.btn-cv::after {
+  content: '';
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, transparent 80%);
+  transform: translate(-50%, -50%);
+  transition: width 0.4s ease, height 0.4s ease;
+}
+
+.btn-cv.hovered::after {
+  width: 300px;
+  height: 300px;
+}
