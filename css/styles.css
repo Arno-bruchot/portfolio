@@ -495,6 +495,8 @@ Contact
   background-color: #e86e00;
 }
 .btn-cv {
+  --x: 50%;
+  --y: 50%;
   display: inline-block;
   margin-top: 30px;
   padding: 14px 30px;
