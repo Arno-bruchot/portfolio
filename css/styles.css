@@ -406,3 +406,36 @@ p {
   color: #666;
   margin-top: 10px;
 }
+.bulles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.bulle {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #ff6600;
+  text-shadow: 0 0 10px #ff6600cc;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 30px;
+  transition: transform 0.3s;
+}
+
+.bulle:hover {
+  transform: scale(1.1);
+  color: #ff6600;
+}
+
+.bulle span {
+  font-size: 14px;
+  margin-top: 8px;
+  font-family: 'Rajdhani', sans-serif;
+}
