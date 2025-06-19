@@ -379,6 +379,7 @@ p {
   padding: 30px 0;
   font-family: 'Rajdhani', sans-serif;
   border-top: 1px solid #ddd;
+  background-color: rgba(15, 15, 30, 0.9);
 }
 
 .social-icons {
