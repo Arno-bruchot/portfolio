@@ -374,3 +374,34 @@ p {
   transform: scale(1.1);
   box-shadow: 0 0 20px #ff6600;
 }
+.site-footer {
+  text-align: center;
+  padding: 30px 0;
+  font-family: 'Rajdhani', sans-serif;
+  border-top: 1px solid #ddd;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  font-size: 28px;
+  color: #000000;
+  text-shadow: 0 0 12px #ff6600cc;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  text-shadow: 0 0 20px #ff6600;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
