@@ -115,11 +115,11 @@ nav ul li a.active {
   font-size: 60px;
   color: #ffffff;
   margin-bottom: 10px;
-  background-color: #59c2c7; /* fond clair vert */
-  border-radius: 50%;        /* rond */
+ /* fond clair vert */
+      /* rond */
   width: 80px;
   height: 80px;
-  line-height: 80px;         /* centre verticalement l'icône */
+     
   text-align: center;
   transition: background-color 0.3s, color 0.3s;
 }
