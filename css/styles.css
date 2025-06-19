@@ -494,3 +494,20 @@ Contact
 .btn-submit:hover {
   background-color: #e86e00;
 }
+.btn-cv {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 24px;
+  background-color: #ff6600;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 0 12px #ff6600cc;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.btn-cv:hover {
+  background-color: #e85c00;
+}
