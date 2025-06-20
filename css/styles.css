@@ -525,6 +525,8 @@ Contact
   color: #eee;
   display: flex;
   align-items: center;
+  font-size: 15px;
+  position: center;
 }
 
 .contact-infos i {
