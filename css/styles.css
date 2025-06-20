@@ -507,10 +507,7 @@ Contact
 
 .contact-infos {
   flex: 1;
-
   background-color: #1f1f28;
-
-  box-shadow: 0 0 20px rgba(255, 127, 0, 0.3);
   color: #eee;
 }
 
@@ -541,7 +538,6 @@ Contact
 
 .social-icons a {
   font-size: 1.5rem;
-  margin-right: 15px;
   color: #ff7f00;
   transition: color 0.3s ease;
 }
