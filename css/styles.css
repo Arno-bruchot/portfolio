@@ -98,40 +98,43 @@ nav ul li a.active {
 }
 .icon-navigation {
   display: flex;
-  justify-content: center;
-  gap: 60px; /* plus d'espace entre les icônes */
-  margin-top: 40px;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 60px;
+  padding: 40px;
 }
 
 .nav-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 180px;
+  border: 4px solid orange;
+  border-radius: 50%;
   text-align: center;
-  color: #333;
-  cursor: pointer;
-  transition: transform 0.3s, color 0.3s;
+  text-decoration: none;
+  color: #fff;
+  background: #1a1a1a;
+  box-shadow: 0 0 20px orange;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .nav-icon i {
-  font-size: 60px;
-  color: #ffffff;
-  margin-bottom: 10px;
- /* fond clair vert */
-      /* rond */
-  width: 80px;
-  height: 80px;
-     
-  text-align: center;
-  transition: background-color 0.3s, color 0.3s;
+  font-size: 50px;
+  margin-bottom: 15px;
 }
 
-
 .nav-icon span {
-  display: block;
-  font-size: 22px;
-  margin-top: 5px;
-   color: #ff6600;
-  text-shadow: 0 0 15px #ff6600cc;
-  font-family: 'Rajdhani', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px #ff8800;
 }
 
 
@@ -362,7 +365,7 @@ p {
   transition: transform 0.3s ease, text-shadow 0.3s ease;
   padding: 15px;
   border-radius: 50%;
-  background-color: rgba(15, 15, 30, 0.9);
+  background-color: #1f1f28;
 }
 
 .social-icons a:hover {
