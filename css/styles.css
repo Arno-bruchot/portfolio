@@ -507,12 +507,9 @@ Contact
 
 .contact-infos {
   flex: 1;
-  min-width: 280px;
-  max-width: 500px;
-  padding: 2rem;
+
   background-color: #1f1f28;
-  border: 2px solid #ff7f00;
-  border-radius: 12px;
+
   box-shadow: 0 0 20px rgba(255, 127, 0, 0.3);
   color: #eee;
 }
