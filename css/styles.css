@@ -563,7 +563,7 @@ Contact
   box-shadow: 0 0 25px #ff6600aa;
   text-decoration: none;
   letter-spacing: 1px;
-  position: relative;
+
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: center;
