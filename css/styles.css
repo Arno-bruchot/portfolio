@@ -494,6 +494,65 @@ Contact
 .btn-submit:hover {
   background-color: #e86e00;
 }
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 2rem;
+}
+
+.contact-form-wrapper {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-infos {
+  flex: 1;
+  min-width: 280px;
+  max-width: 500px;
+  padding: 2rem;
+  background-color: #1f1f28;
+  border: 2px solid #ff7f00;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 127, 0, 0.3);
+  color: #eee;
+}
+
+.contact-infos h2 {
+  color: #ff7f00;
+  margin-bottom: 1rem;
+}
+
+.contact-infos p {
+  font-size: 1rem;
+  margin: 1rem 0;
+  color: #eee;
+  display: flex;
+  align-items: center;
+}
+
+.contact-infos i {
+  color: #ff7f00;
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.social-icons {
+  margin-top: 1.5rem;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  margin-right: 15px;
+  color: #ff7f00;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
 .btn-cv {
   --x: 50%;
   --y: 50%;
