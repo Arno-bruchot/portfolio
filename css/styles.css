@@ -651,7 +651,6 @@ Stage
 #resume-stage ul li {
   margin-bottom: 10px;
   font-size: 1rem;
-  text-align: center;
 }
 
 @media (max-width: 768px) {
