@@ -615,14 +615,16 @@ Stage
   max-width: 1000px;
   margin: 0 auto;
   padding: 60px 20px;
-  color: #e6e6e6; /* couleur texte claire */
+  color: #ff6600; /* couleur texte claire */
+  box-shadow: #ff6600cc;
 }
 
 #resume-stage h2 {
   text-align: center;
   font-size: 2.2rem;
   margin-bottom: 50px;
-  color: #ffffff;
+  color: #ff6600; /* couleur texte claire */
+  box-shadow: #ff6600cc;
   border-bottom: 2px solid #444;
   padding-bottom: 12px;
 }
