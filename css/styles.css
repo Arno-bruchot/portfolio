@@ -607,35 +607,43 @@ Contact
   width: 300px;
   height: 300px;
 }
+
+
+
+Stage
 #resume-stage {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 40px 20px;
-  line-height: 1.6;
+  padding: 60px 20px;
+  color: #e6e6e6; /* couleur texte claire */
 }
 
 #resume-stage h2 {
   text-align: center;
-  font-size: 2rem;
-  margin-bottom: 40px;
-  border-bottom: 2px solid #333;
-  display: inline-block;
-  padding-bottom: 10px;
+  font-size: 2.2rem;
+  margin-bottom: 50px;
+  color: #ffffff;
+  border-bottom: 2px solid #444;
+  padding-bottom: 12px;
 }
 
 #resume-stage .semaine {
-  margin-bottom: 40px;
-  background-color: #f9f9f9;
-  border-left: 4px solid #007acc;
-  padding: 20px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
-  border-radius: 8px;
+  margin-bottom: 50px;
+  background-color: #1e1e1e; /* fond foncé */
+  border-left: 3px solid #4e8cff; /* bleu doux utilisé souvent sur sites tech */
+  padding: 25px 30px;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+#resume-stage .semaine:hover {
+  transform: translateY(-3px);
 }
 
 #resume-stage .semaine h3 {
-  font-size: 1.4rem;
-  color: #007acc;
-  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #4e8cff;
+  margin-bottom: 15px;
 }
 
 #resume-stage ul {
@@ -643,22 +651,23 @@ Contact
 }
 
 #resume-stage ul li {
-  margin-bottom: 8px;
-  list-style: square;
-  font-size: 0.98rem;
+  margin-bottom: 10px;
+  list-style-type: disc;
+  font-size: 1rem;
+  color: #cccccc;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   #resume-stage {
-    padding: 20px 10px;
+    padding: 30px 15px;
   }
 
   #resume-stage h2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 
   #resume-stage .semaine h3 {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
   }
 
   #resume-stage ul li {
