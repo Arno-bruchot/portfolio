@@ -607,3 +607,61 @@ Contact
   width: 300px;
   height: 300px;
 }
+#resume-stage {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  line-height: 1.6;
+}
+
+#resume-stage h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #333;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+#resume-stage .semaine {
+  margin-bottom: 40px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #007acc;
+  padding: 20px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+#resume-stage .semaine h3 {
+  font-size: 1.4rem;
+  color: #007acc;
+  margin-bottom: 10px;
+}
+
+#resume-stage ul {
+  padding-left: 20px;
+}
+
+#resume-stage ul li {
+  margin-bottom: 8px;
+  list-style: square;
+  font-size: 0.98rem;
+}
+
+@media (max-width: 600px) {
+  #resume-stage {
+    padding: 20px 10px;
+  }
+
+  #resume-stage h2 {
+    font-size: 1.5rem;
+  }
+
+  #resume-stage .semaine h3 {
+    font-size: 1.2rem;
+  }
+
+  #resume-stage ul li {
+    font-size: 0.95rem;
+  }
+}
