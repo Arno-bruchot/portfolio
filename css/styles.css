@@ -615,6 +615,7 @@ Stage
   max-width: 1000px;
   margin: 0 auto;
   padding: 60px 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #resume-stage h2 {
@@ -632,6 +633,7 @@ Stage
   padding: 25px 30px;
   border-radius: 10px;
   transition: transform 0.2s ease;
+    font-family: 'Roboto', sans-serif;
 }
 
 #resume-stage .semaine:hover {
@@ -642,6 +644,7 @@ Stage
   font-size: 1.5rem;
   color: #4e8cff;
   margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #resume-stage ul {
