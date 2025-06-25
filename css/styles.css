@@ -610,7 +610,8 @@ Contact
 }
 
 
-
+.sub-block{
+    font-family: 'Roboto', sans-serif; }
 Stage
 #resume-stage {
   max-width: 1000px;
