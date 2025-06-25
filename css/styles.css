@@ -366,6 +366,7 @@ p {
   padding: 15px;
   border-radius: 50%;
   background-color: #1f1f28;
+    font-family: 'Roboto', sans-serif;
 }
 
 .social-icons a:hover {
@@ -437,7 +438,7 @@ p {
 .bulle span {
   font-size: 20px;
   margin-top: 8px;
-  font-family: 'Rajdhani', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
