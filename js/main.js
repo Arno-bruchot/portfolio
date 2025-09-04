@@ -1,20 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const links = document.querySelectorAll('nav ul li a');
-  const sections = document.querySelectorAll('main section');
-
-  function showSection(id) {
-    sections.forEach(section => {
-      if (section.id === id) {
-        section.classList.remove('hidden-section');
-      } else {
-        section.classList.add('hidden-section');
-      }
-    });
-  }
-
-  // Affichage initial (intro visible)
-  showSection('intro');
-
+  // --- ANIMATION DES BARRES ---
   const fills = document.querySelectorAll('.progress-bar-fill');
   const animateBars = () => {
     fills.forEach(bar => {
@@ -24,9 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
   };
   setTimeout(animateBars, 400);
 
-  // === AJOUT POUR LE BOUTON CV ===
+  // --- BOUTON CV ---
   const btnCv = document.querySelector('.btn-cv');
-
   if (btnCv) {
     btnCv.addEventListener('mousemove', e => {
       const rect = btnCv.getBoundingClientRect();
@@ -36,17 +20,11 @@ document.addEventListener('DOMContentLoaded', () => {
       btnCv.style.setProperty('--y', `${y}px`);
     });
 
-    btnCv.addEventListener('mouseenter', () => {
-      btnCv.classList.add('hovered');
-    });
-
-    btnCv.addEventListener('mouseleave', () => {
-      btnCv.classList.remove('hovered');
-    });
+    btnCv.addEventListener('mouseenter', () => btnCv.classList.add('hovered'));
+    btnCv.addEventListener('mouseleave', () => btnCv.classList.remove('hovered'));
   }
-});
 
-document.addEventListener("DOMContentLoaded", () => {
+  // --- COMPÉTENCES (modales) ---
   document.querySelectorAll('.competence-card').forEach(card => {
     card.addEventListener('click', () => {
       const modalId = card.getAttribute('data-modal');
