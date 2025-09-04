@@ -711,14 +711,18 @@ Stage
 
 /* Modales */
 .modal {
-  display: none; 
+  display: none;
   position: fixed;
-  z-index: 1000;
-  padding-top: 80px;
+  z-index: 2000;
   left: 0; top: 0;
   width: 100%; height: 100%;
-  background: rgba(0,0,0,0.7);
+  background: rgba(255,255,255,0.15); /* léger blanc transparent */
+  backdrop-filter: blur(6px);          /* effet de flou */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .modal-content {
   background: #fff;
   margin: auto;
@@ -745,3 +749,4 @@ Stage
   from { opacity: 0; transform: scale(0.95); }
   to { opacity: 1; transform: scale(1); }
 }
+
