@@ -683,6 +683,7 @@ Stage
 }
 
 /* Grille des compétences */
+/* Grille des compétences */
 #competences {
   padding: 50px 20px;
   text-align: center;
@@ -694,15 +695,20 @@ Stage
   margin-top: 30px;
 }
 .competence-card {
-  background: rgba(255,255,255,0.1);
-  border: 2px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.08);
+  border: 2px solid rgba(255,255,255,0.25);
   padding: 20px;
   border-radius: 12px;
-  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;             /* clique activé */
   transition: transform 0.3s, background 0.3s;
+  z-index: 1;                  /* toujours au-dessus */
+  text-align: center;
 }
 .competence-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-5px) scale(1.05);
   background: rgba(255,255,255,0.2);
 }
 
@@ -710,20 +716,23 @@ Stage
 .modal {
   display: none; 
   position: fixed;
-  z-index: 1000;
-  padding-top: 80px;
+  z-index: 2000;                /* priorité max */
   left: 0; top: 0;
   width: 100%; height: 100%;
   background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .modal-content {
   background: #fff;
-  margin: auto;
   padding: 20px;
   border-radius: 12px;
   max-width: 600px;
+  width: 90%;
   text-align: center;
-  animation: fadeIn 0.4s ease;
+  position: relative;
+  animation: fadeIn 0.3s ease;
 }
 .modal-content img {
   max-width: 100%;
@@ -732,13 +741,17 @@ Stage
 }
 .close {
   position: absolute;
-  right: 30px;
-  top: 20px;
+  right: 15px;
+  top: 10px;
   font-size: 28px;
   font-weight: bold;
   cursor: pointer;
+  color: #333;
+}
+.close:hover {
+  color: #ff6600;
 }
 @keyframes fadeIn {
-  from { opacity: 0; transform: scale(0.95); }
-  to { opacity: 1; transform: scale(1); }
+  from { opacity: 0; transform: scale(0.9); }
+  to   { opacity: 1; transform: scale(1); }
 }
