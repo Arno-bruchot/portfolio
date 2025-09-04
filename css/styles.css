@@ -711,42 +711,30 @@ Stage
 
 /* Modales */
 .modal {
-  display: none;
+  display: none; 
   position: fixed;
   z-index: 2000;
   left: 0; top: 0;
   width: 100%; height: 100%;
-  background: rgba(255,255,255,0.15); /* léger blanc transparent */
-  backdrop-filter: blur(6px);          /* effet de flou */
+  background: rgba(0,0,0,0.6); /* voile sombre mais pas opaque */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .modal-content {
-  background: #fff;
-  margin: auto;
+  background: #fff; /* fond blanc lisible */
+  color: #333;      /* texte sombre lisible */
   padding: 20px;
   border-radius: 12px;
-  max-width: 600px;
   text-align: center;
-  animation: fadeIn 0.4s ease;
-}
-.modal-content img {
-  max-width: 100%;
-  border-radius: 8px;
-  margin-top: 15px;
-}
-.close {
-  position: absolute;
-  right: 30px;
-  top: 20px;
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
-}
-@keyframes fadeIn {
-  from { opacity: 0; transform: scale(0.95); }
-  to { opacity: 1; transform: scale(1); }
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
 }
 
+.modal-content h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #ff6600; /* ton orange */
+}
