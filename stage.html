@@ -8,6 +8,27 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
+  <script>
+document.querySelectorAll('.competence-card').forEach(card => {
+  card.addEventListener('click', () => {
+    const modalId = card.getAttribute('data-modal');
+    document.getElementById(modalId).style.display = 'block';
+  });
+});
+
+document.querySelectorAll('.close').forEach(btn => {
+  btn.addEventListener('click', () => {
+    btn.closest('.modal').style.display = 'none';
+  });
+});
+
+window.addEventListener('click', (e) => {
+  if (e.target.classList.contains('modal')) {
+    e.target.style.display = 'none';
+  }
+});
+</script>
+
 <body>
   <header>
     <div class="logo">Arno BRUCHOT</div>
