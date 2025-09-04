@@ -681,30 +681,3 @@ Stage
     font-size: 0.95rem;
   }
 }
-
-/* Grille des compétences */
-/* Grille des compétences */
-
-/* Grille des compétences */
-#competences {
-  padding: 50px 20px;
-  text-align: center;
-}
-.competence-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  margin-top: 30px;
-}
-.competence-card {
-  background: rgba(255,255,255,0.1);
-  border: 2px solid rgba(255,255,255,0.2);
-  padding: 20px;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: transform 0.3s, background 0.3s;
-}
-.competence-card:hover {
-  transform: translateY(-5px);
-  background: rgba(255,255,255,0.2);
-}
